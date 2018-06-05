@@ -1,9 +1,10 @@
 sudo: required
+dist: trusty
 
 addons:
   apt:
     sources:
-      - chef-current-precise
+      - chef-current-trusty
     packages:
       - chefdk
 
